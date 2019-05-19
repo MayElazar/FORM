@@ -1,0 +1,110 @@
+﻿<!doctype html>
+<html lang="">
+<head>
+    <meta charset="utf-8" />
+    <title>טכנולוגיות למידה - הרשמה</title>
+    <meta name="description" content="הרשמה לתואר חדש ומעניין, טכנולוגיות למידה בHIT חולון. דף הרשמה לפרטים נוספים מלאו את הפרטים. " />
+    <meta name="keywords" content="דף נחיתה, הרשמה, טלמ,HIT,טכנולוגיות למידה" />
+    <meta name="author" content="May Elazar" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+    <!-- CSS -->
+    <link href="styles/reset.css" rel="stylesheet" />
+    <link href="styles/myStyle.css" rel="stylesheet" />
+
+
+    <!-- Scripts -->
+    <script src="jScripts/jquery-1.12.0.min.js"></script>
+
+    <script src="https://webdevelopmentcourse.github.io/contactUs/WebDevelopmentCourse/jScripts/contactUs.js"
+            type="text/javascript"></script>
+</head>
+<body>
+
+    <header>
+        <img id="HIT" src="image/HIT-04.png" />
+    </header>
+    <div id="container">
+        <div id="background"></div>
+        <article>
+            <section>
+                <h1>תואר ראשון בטכנולוגיות למידה</h1>
+                <p id="aboutTelem">
+                    מחפשים תואר המשלב עיצוב,תכנות והדרכה ?
+                    <br />
+                    אז התואר הזה הוא בול בשבילכם !
+                </p>
+            </section>
+            <section>
+                <h2>למי מיועד התואר?</h2>
+                <ul>
+                    <li>למתעניינים בעולמות של ניו-מדיה ותוכן דיגיטאלי ורוצים להפוך את התחביב למקצוע מבוקש.</li>
+                    <li>לבעלי עניין ורקע בהדרכה (בצבא או בכל מסגרת אחרת) ו/או בעיצוב ממשק ואינטראקטיב.</li>
+                    <li>
+                        לבעלי "ראש גדול", המעוניינים לשלב בין כמה עולמות ולהיות המובילים בתחום חדש ומאתגר.
+                    </li>
+                </ul>
+            </section>
+            <section>
+                <h3>רוצים לדעת פרטים נוספים?</h3>
+                <p id="livedetails">
+                    תמלאו את הטופס ואנחנו נחזור אליכם בהקדם האפשרי
+                </p>
+            </section>
+
+            <form>
+                <input type="hidden" id="myEmail" name="may" value="mayelazar741@gmail.com">
+
+                <label for="FirstName">
+                    שם פרטי:
+                    <input type="text" id="FirstName" placeholder="הכנס את שמך הפרטי" />
+                </label>
+
+                <label for="LastName">
+                    שם משפחה:
+                    <input type="text" id="LastName" placeholder="הכנס את שמך הפרטי" />
+                </label>
+
+
+
+                <label for="male">
+                    <input type="radio" id="male" name="gender" checked /> זכר
+                </label>
+                <label for="female">
+                    <input type="radio" id="female" name="gender" /> נקבה
+                </label>
+
+
+                <label for="mail">
+                    מייל:
+                    <input type="text" id="mail" placeholder="הכנס את המייל שלך" />
+                </label>
+
+                <label for="phone">
+                    טלפון:
+                    <input type="text" id="phone" placeholder="הכנס את המספר הטלפון שלך" />
+                </label>
+
+                <label for="cb1">
+                    <input type="checkbox" id="cb1" checked /> מוכן לקבל דואר פירסומי
+                </label>
+
+
+
+                <input type="submit" id="sendForm" value="שלח" />
+
+                <div id="feedback"></div>
+            </form>
+
+
+            <div id="footerBg">
+                <footer>
+                    <p>המכון הטכנולוגי חולון: גם בפייסבוק </p>
+                    <a href="https://www.facebook.com/telemHIT/" target="_blank">  <img id="facebookIcon" src="image/facebookIcon.png" alt="דף הפייסבוק של טלמ" /> </a>
+
+                </footer>
+            </div>
+        </article>
+    </div>
+</body>
+</html>
